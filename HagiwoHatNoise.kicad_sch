@@ -5,200 +5,6 @@
 	(uuid "599a98da-a4a2-4635-97eb-f901b14811e2")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Audio:AudioJack2_SwitchT"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AudioJack2_SwitchT"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "audio jack receptacle mono headphones phone TS connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jack*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AudioJack2_SwitchT_0_1"
-				(rectangle
-					(start -2.54 0)
-					(end -3.81 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 -0.254) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 1.778 -2.54) (xy 1.778 -0.254) (xy 1.524 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 3.81)
-					(end -2.54 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "AudioJack2_SwitchT_1_1"
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "T"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "TN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -1713,30 +1519,30 @@
 				)
 			)
 		)
-		(symbol "PCM_4ms_Connector:Eurorack_Power_16pin_Shrouded"
+		(symbol "PCM_4ms_Connector:Eurorack_Power_10pin_Unshrouded"
 			(pin_names
 				(offset 0.0254) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 11.43 0)
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Eurorack_Power_16pin_Shrouded"
-				(at 0 13.97 0)
+			(property "Value" "Eurorack_Power_10pin_Unshrouded"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "4ms_Connector:Pins_2x08_2.54mm_TH_EuroPower_Shrouded"
-				(at 10.16 -22.86 0)
+			(property "Footprint" "4ms_Connector:Pins_2x05_2.54mm_TH_Europower"
+				(at 2.54 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1753,7 +1559,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Header, Male Pins, 2*8, spacing 2.54mm, straight pin, shrouded and keyed"
+			(property "Description" "HEADER 2x5 MALE PINS 0.100” 180deg"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1762,8 +1568,8 @@
 					(hide yes)
 				)
 			)
-			(property "Specifications" "Header, Male Pins, 2*8, spacing 2.54mm, straight pin, shrouded and keyed"
-				(at 0 -15.24 0)
+			(property "Specifications" "HEADER 2x5 MALE PINS 0.100” 180deg"
+				(at 0 -21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1772,8 +1578,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Cixi LanLing"
-				(at 0 -17.78 0)
+			(property "Manufacturer" "TAD"
+				(at 0 -19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1782,8 +1588,8 @@
 					(hide yes)
 				)
 			)
-			(property "Part Number" "LL1007-1 (2*8 HITEMP)"
-				(at 0 -20.32 0)
+			(property "Part Number" "1-1002FBV0T"
+				(at 0 -16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1792,7 +1598,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Eurorack_Power_16pin_Shrouded"
+			(property "ki_keywords" "Eurorack_Power_10pin_Unshrouded"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1810,7 +1616,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Eurorack_Power_16pin_Shrouded_0_0"
+			(symbol "Eurorack_Power_10pin_Unshrouded_0_0"
 				(text "+12"
 					(at 0 1.27 0)
 					(effects
@@ -1819,32 +1625,8 @@
 						)
 					)
 				)
-				(text "+5"
-					(at 0 3.81 0)
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
 				(text "-12"
 					(at 0 -8.89 0)
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(text "CV"
-					(at 0 6.35 0)
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(text "GATE"
-					(at 0 8.89 0)
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -1884,7 +1666,18 @@
 					)
 				)
 			)
-			(symbol "Eurorack_Power_16pin_Shrouded_0_1"
+			(symbol "Eurorack_Power_10pin_Unshrouded_0_1"
+				(rectangle
+					(start -2.54 -10.16)
+					(end 2.54 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(rectangle
 					(start -2.54 -8.763)
 					(end -1.27 -9.017)
@@ -1938,50 +1731,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(rectangle
-					(start -2.54 3.937)
-					(end -1.27 3.683)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.54 6.477)
-					(end -1.27 6.223)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.54 9.017)
-					(end -1.27 8.763)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.54 10.16)
-					(end 2.54 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 				(polyline
@@ -2051,45 +1800,12 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 1.27 3.937)
-					(end 2.54 3.683)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 6.477)
-					(end 2.54 6.223)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 9.017)
-					(end 2.54 8.763)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
-			(symbol "Eurorack_Power_16pin_Shrouded_1_1"
+			(symbol "Eurorack_Power_10pin_Unshrouded_1_1"
 				(pin passive line
-					(at -6.35 8.89 0)
+					(at -6.35 1.27 0)
 					(length 3.81)
-					(name "P1"
+					(name "+12V"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2105,9 +1821,9 @@
 					)
 				)
 				(pin passive line
-					(at 6.35 -1.27 180)
+					(at 6.35 -8.89 180)
 					(length 3.81)
-					(name "GND"
+					(name "-12V"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2115,222 +1831,6 @@
 						)
 					)
 					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 -3.81 0)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -3.81 180)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 -6.35 0)
-					(length 3.81)
-					(name "-12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -6.35 180)
-					(length 3.81)
-					(name "-12V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 -8.89 0)
-					(length 3.81)
-					(name "-12V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -8.89 180)
-					(length 3.81)
-					(name "P16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 8.89 180)
-					(length 3.81)
-					(name "P2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 6.35 0)
-					(length 3.81)
-					(name "P3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 6.35 180)
-					(length 3.81)
-					(name "P4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 3.81 0)
-					(length 3.81)
-					(name "+12V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 3.81 180)
-					(length 3.81)
-					(name "P6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 1.27 0)
-					(length 3.81)
-					(name "12V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2348,7 +1848,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2366,10 +1866,299 @@
 							)
 						)
 					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -1.27 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -3.81 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -3.81 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -6.35 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -6.35 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -8.89 0)
+					(length 3.81)
+					(name "-12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PCM_4ms_Jack:3.5mm_Mono_Switched_sm"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -7.62 8.89 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "3.5mm_Mono_Switched_sm"
+				(at 6.35 6.604 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "4ms_Jack:EighthInch_PJ398SM"
+				(at -0.127 -14.097 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -1.27 1.27 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+				(at -2.54 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Wenzhou QingPu Electronics Co"
+				(at -2.54 -9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "WQP-WQP518MA"
+				(at -2.54 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "PJ398SM PJ301SM WQP518MA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "3.5mm_Mono_Switched_sm_0_0"
+				(rectangle
+					(start -6.35 5.08)
+					(end -3.81 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -1.27 2.54) (xy 0 5.08) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "3.5mm_Mono_Switched_sm_1_1"
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 1.27)
+					(name "SIG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 90)
+					(length 2.54)
+					(name "SHEILD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 1.27 180)
+					(length 1.27)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.889 0.889)
 							)
 						)
 					)
@@ -3040,6 +2829,12 @@
 		(uuid "42ab1bc6-da0a-44f6-96b6-13b0c12647d3")
 	)
 	(junction
+		(at 151.13 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "476153f5-329b-464d-a493-68319a79f437")
+	)
+	(junction
 		(at 81.28 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3058,22 +2853,22 @@
 		(uuid "7f386829-d2dc-4dab-8396-0e203ea101c4")
 	)
 	(junction
-		(at 156.21 96.52)
+		(at 163.83 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81a7f66e-d3e2-4b85-8e57-1f7f37988614")
-	)
-	(junction
-		(at 140.97 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "868c4d11-f4ee-4a48-bdbc-0b474226cbad")
 	)
 	(junction
 		(at 48.26 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88db89c3-38b8-4db5-a987-5ec3ec348be7")
+	)
+	(junction
+		(at 130.81 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a646f4f-6a5c-4a6c-9c3e-99bc7b395848")
 	)
 	(junction
 		(at 165.1 50.8)
@@ -3148,7 +2943,7 @@
 		(uuid "d8cf4060-945f-4942-8ae5-ad2d2146df23")
 	)
 	(junction
-		(at 135.89 104.14)
+		(at 143.51 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9b9982c-1c0f-4bd6-aad1-96fe5befefe7")
@@ -3184,10 +2979,16 @@
 		(uuid "f264a0f2-3f7e-42c3-b214-1eae8a333206")
 	)
 	(junction
-		(at 135.89 96.52)
+		(at 143.51 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2cf0b4c-820e-426a-83b8-dc5de31201dd")
+	)
+	(junction
+		(at 130.81 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f96c6908-7aef-4d9c-822d-8768c17c8544")
 	)
 	(no_connect
 		(at 110.49 62.23)
@@ -3210,20 +3011,24 @@
 		(uuid "34b02c63-cd40-4b32-bcda-9ae74ec4ac26")
 	)
 	(no_connect
+		(at 17.78 161.29)
+		(uuid "358d23d7-ccab-4488-99d2-12c681f570e1")
+	)
+	(no_connect
 		(at 110.49 31.75)
 		(uuid "394caf2b-b3df-472c-ae8f-1fd59ddbe32a")
+	)
+	(no_connect
+		(at 17.78 100.33)
+		(uuid "431396db-1fc2-4d3f-bd03-6103d3d175db")
 	)
 	(no_connect
 		(at 110.49 39.37)
 		(uuid "5190a6c8-cd27-4999-a9af-e54dbac02259")
 	)
 	(no_connect
-		(at 217.17 22.86)
-		(uuid "55c873a1-6275-491d-a6cf-d20bb331b0b2")
-	)
-	(no_connect
-		(at 27.94 118.11)
-		(uuid "85ed9abe-028c-4677-a5e8-9bf3639e4df1")
+		(at 229.87 35.56)
+		(uuid "6b6f511b-2850-425a-a7dc-d4438afda154")
 	)
 	(no_connect
 		(at 110.49 59.69)
@@ -3238,20 +3043,12 @@
 		(uuid "a0a25f7a-8a68-4d90-90be-ad929f5b89b1")
 	)
 	(no_connect
-		(at 27.94 87.63)
-		(uuid "a479e1d1-5f45-426d-ac15-82e50eaf482e")
-	)
-	(no_connect
 		(at 125.73 19.05)
 		(uuid "ad4e9905-6bd5-48e1-82a4-8afef9e8849e")
 	)
 	(no_connect
 		(at 135.89 54.61)
 		(uuid "bddfdf20-dfa7-42b2-9f0b-049155b8dcfe")
-	)
-	(no_connect
-		(at 27.94 148.59)
-		(uuid "c500d788-c14d-42ce-8d31-af37618b24e7")
 	)
 	(no_connect
 		(at 110.49 34.29)
@@ -3264,6 +3061,10 @@
 	(no_connect
 		(at 110.49 57.15)
 		(uuid "d5d5198a-8795-4187-b03f-b20abb11a9af")
+	)
+	(no_connect
+		(at 17.78 130.81)
+		(uuid "ef47cbea-3306-4526-ae90-d0c77be84b76")
 	)
 	(no_connect
 		(at 110.49 46.99)
@@ -3299,7 +3100,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 92.71) (xy 35.56 92.71)
+			(xy 24.13 93.98) (xy 31.75 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3349,13 +3150,13 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 96.52) (xy 130.81 96.52)
+			(xy 118.11 101.6) (xy 118.11 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f1375c8-8ae7-4015-a33d-9e6ae2b7009a")
+		(uuid "23e86b50-3052-4470-86c8-2993f8e0685e")
 	)
 	(wire
 		(pts
@@ -3369,23 +3170,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 96.52) (xy 118.11 96.52)
+			(xy 111.76 96.52) (xy 118.11 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "274afc21-5ecf-4f4e-8783-cae1845ae232")
-	)
-	(wire
-		(pts
-			(xy 118.11 91.44) (xy 130.81 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27dc2ce9-5c22-41c4-b3c5-7a13d4a1591e")
 	)
 	(wire
 		(pts
@@ -3399,7 +3190,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 105.41) (xy 140.97 104.14)
+			(xy 151.13 105.41) (xy 151.13 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3409,7 +3200,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 27.94) (xy 217.17 27.94)
+			(xy 220.98 29.21) (xy 223.52 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3439,7 +3230,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 25.4) (xy 217.17 25.4)
+			(xy 215.9 25.4) (xy 219.71 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3469,6 +3260,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 96.52) (xy 143.51 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cdc9539-42f2-44d7-adb1-c4db4ffacdcf")
+	)
+	(wire
+		(pts
 			(xy 200.66 33.02) (xy 200.66 50.8)
 		)
 		(stroke
@@ -3489,17 +3290,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 88.9) (xy 130.81 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "501677c0-5bf2-475f-94c9-bba68f808ab9")
-	)
-	(wire
-		(pts
-			(xy 156.21 96.52) (xy 135.89 96.52)
+			(xy 163.83 96.52) (xy 143.51 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3589,16 +3380,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 93.98) (xy 130.81 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "721f8c26-c407-4d83-9040-90426ba17858")
-	)
-	(wire
-		(pts
 			(xy 48.26 90.17) (xy 81.28 90.17)
 		)
 		(stroke
@@ -3629,7 +3410,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 123.19) (xy 35.56 123.19)
+			(xy 24.13 124.46) (xy 31.75 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3679,33 +3460,23 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 96.52) (xy 156.21 96.52)
+			(xy 130.81 99.06) (xy 130.81 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9507bd96-c1bf-494e-9144-ec74017762a9")
+	)
+	(wire
+		(pts
+			(xy 172.72 96.52) (xy 163.83 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "96b60c2b-2a79-4a5f-b375-6e0849db8a9d")
-	)
-	(wire
-		(pts
-			(xy 113.03 104.14) (xy 118.11 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a9bfe68-286a-494b-93a8-bab9f832439b")
-	)
-	(wire
-		(pts
-			(xy 140.97 104.14) (xy 156.21 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bf50d0b-81d2-4c41-a111-d75e179b193e")
 	)
 	(wire
 		(pts
@@ -3749,6 +3520,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 25.4) (xy 205.74 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e7f184-5732-4a71-82a5-c5d2aadf89ea")
+	)
+	(wire
+		(pts
 			(xy 165.1 50.8) (xy 170.18 50.8)
 		)
 		(stroke
@@ -3779,7 +3560,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 104.14) (xy 140.97 104.14)
+			(xy 143.51 104.14) (xy 151.13 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3879,7 +3660,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 153.67) (xy 35.56 153.67)
+			(xy 24.13 154.94) (xy 31.75 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3896,6 +3677,16 @@
 			(type default)
 		)
 		(uuid "d8298708-3b79-42bb-9ead-57cbe2d9bebc")
+	)
+	(wire
+		(pts
+			(xy 151.13 104.14) (xy 163.83 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1873267-16c9-4569-b044-a70b298d3358")
 	)
 	(wire
 		(pts
@@ -3967,17 +3758,6 @@
 		)
 		(uuid "fcde2258-1aea-4784-a170-7133ec557135")
 	)
-	(text "5v from Arduino or directly from 5V rail?\ncaps on 12V rail?"
-		(exclude_from_sim no)
-		(at 119.126 131.064 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0378dcd7-a36b-445a-9b66-093ca5718202")
-	)
 	(text "Noise Out"
 		(exclude_from_sim no)
 		(at 163.83 24.13 0)
@@ -3987,16 +3767,6 @@
 			)
 		)
 		(uuid "1549f300-d2a0-4542-972b-464edf59cb0a")
-	)
-	(text "Patch submodule uses 22uF ceramic here"
-		(exclude_from_sim no)
-		(at 180.848 104.394 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b88ff43a-2805-4073-995c-8ddce9953441")
 	)
 	(text "Decay Out"
 		(exclude_from_sim no)
@@ -4370,7 +4140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00f75a72-3971-40d5-81e5-66a2cb631ab1")
-		(property "Reference" "D5"
+		(property "Reference" "D6"
 			(at 50.8 145.7324 90)
 			(effects
 				(font
@@ -4388,7 +4158,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Library:D_DO-35_SOD27_P7.62mm_Horizontal_Widened_No_K"
 			(at 48.26 147.32 0)
 			(effects
 				(font
@@ -4415,6 +4185,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen Value" "B43"
+			(at 48.26 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d8465766-1a7d-4274-911b-c0de20aebfd6")
 		)
@@ -4424,7 +4203,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "D5")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -4440,7 +4219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03e3c2ef-b229-4200-af60-06e0fa36f38d")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 31.75 35.56 0)
 			(effects
 				(font
@@ -4490,7 +4269,74 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "#PWR04")
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 130.81 106.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a551e50-a138-41c7-a6ec-5c0f0d63d445")
+		(property "Reference" "#PWR025"
+			(at 127 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-12V"
+			(at 134.62 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 130.81 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28c029e5-0ee6-48dc-90b1-736a79615e6f")
+		)
+		(instances
+			(project "HagiwoHatNoise"
+				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -4506,7 +4352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b7af101-8fce-4cc7-ba94-bb947dfd732a")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR024"
 			(at 48.26 165.1 0)
 			(effects
 				(font
@@ -4556,7 +4402,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "#PWR015")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -4572,7 +4418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c9c02f3-2f8f-4db7-b6fc-745f3368e071")
-		(property "Reference" "C1"
+		(property "Reference" "C4"
 			(at 52.07 63.4999 0)
 			(effects
 				(font
@@ -4581,7 +4427,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100pF (101)"
+		(property "Value" "100pF"
 			(at 52.07 66.0399 0)
 			(effects
 				(font
@@ -4617,6 +4463,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen Value" "101▲"
+			(at 48.26 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3c1954da-de23-4abc-af32-5471867745cb")
 		)
@@ -4626,7 +4481,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "C1")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4634,7 +4489,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 165.1 96.52 270)
+		(at 172.72 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4642,8 +4497,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1df426c6-8fc1-47d1-99b4-6e4e5f94e000")
-		(property "Reference" "#PWR020"
-			(at 161.29 96.52 0)
+		(property "Reference" "#PWR015"
+			(at 168.91 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4652,7 +4507,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 168.91 96.5199 90)
+			(at 176.53 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4661,7 +4516,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 96.52 0)
+			(at 172.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4670,7 +4525,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 96.52 0)
+			(at 172.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4679,7 +4534,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 165.1 96.52 0)
+			(at 172.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4693,7 +4548,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "#PWR020")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4709,7 +4564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29aad5cb-580d-4ffd-889a-3c19f86f697c")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 38.1 36.83 90)
 			(effects
 				(font
@@ -4717,7 +4572,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 38.1 39.37 90)
 			(effects
 				(font
@@ -4761,7 +4616,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4777,7 +4632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29c471ad-b00d-4b4b-8d19-f7d905dada61")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 50.8 115.2524 90)
 			(effects
 				(font
@@ -4795,7 +4650,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Library:D_DO-35_SOD27_P7.62mm_Horizontal_Widened_No_K"
 			(at 48.26 116.84 0)
 			(effects
 				(font
@@ -4822,6 +4677,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen Value" "B43"
+			(at 48.26 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0ccad8de-59e9-47f2-b85a-0a1896f36adc")
 		)
@@ -4831,7 +4695,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4847,7 +4711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ea9c862-ae38-428b-8270-ac505356fb18")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR010"
 			(at 31.75 74.93 0)
 			(effects
 				(font
@@ -4897,7 +4761,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "#PWR06")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4913,7 +4777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3164c2f3-3c87-4292-8aa8-086088cd181a")
-		(property "Reference" "R13"
+		(property "Reference" "R5"
 			(at 203.2 53.3399 0)
 			(effects
 				(font
@@ -4922,7 +4786,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100k"
 			(at 203.2 55.8799 0)
 			(effects
 				(font
@@ -4967,77 +4831,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:AudioJack2_SwitchT")
-		(at 222.25 25.4 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "32902b8a-f847-41d0-87f1-bbc5ecf0b1c3")
-		(property "Reference" "J5"
-			(at 222.885 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Out"
-			(at 222.885 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library:EighthInch_PJ398SM_T_TN_S"
-			(at 222.25 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
-			(at 222.25 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "TN"
-			(uuid "fd65b70c-b82a-4845-b7c4-f363b8371525")
-		)
-		(pin "S"
-			(uuid "b7a348d4-e087-4890-909d-b172157825a6")
-		)
-		(pin "T"
-			(uuid "fe6d62c6-51a3-4895-b720-fef24b16b465")
-		)
-		(instances
-			(project "HagiwoHatNoise"
-				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "J5")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -5045,7 +4839,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 156.21 100.33 0)
+		(at 163.83 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5053,8 +4847,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "333ceaf0-b978-40a4-b032-cc110f9a070f")
-		(property "Reference" "C7"
-			(at 160.02 98.1709 0)
+		(property "Reference" "C6"
+			(at 167.64 98.1709 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5063,7 +4857,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 160.02 100.7109 0)
+			(at 167.64 100.7109 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5071,8 +4865,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
-			(at 157.1752 104.14 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
+			(at 164.7952 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5081,7 +4875,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 100.33 0)
+			(at 163.83 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5090,7 +4884,16 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 156.21 100.33 0)
+			(at 163.83 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "10uF▶"
+			(at 163.83 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5107,7 +4910,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "C7")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -5123,7 +4926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "343710e0-72d1-4d49-b49f-3e554c62a9ef")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR08"
 			(at 31.75 53.34 0)
 			(effects
 				(font
@@ -5173,7 +4976,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "#PWR05")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5189,7 +4992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37f742eb-2771-444d-862d-74d66cd63b41")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR021"
 			(at 48.26 134.62 0)
 			(effects
 				(font
@@ -5239,7 +5042,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "#PWR013")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -5255,7 +5058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3991237d-dbce-45db-aa47-616e8f0df3db")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 50.8 84.7724 90)
 			(effects
 				(font
@@ -5273,7 +5076,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Library:D_DO-35_SOD27_P7.62mm_Horizontal_Widened_No_K"
 			(at 48.26 86.36 0)
 			(effects
 				(font
@@ -5300,6 +5103,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen Value" "B43"
+			(at 48.26 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90b67cf7-2585-4d0e-b254-6630835ad219")
 		)
@@ -5309,7 +5121,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -5325,7 +5137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39ade866-16c8-44bd-b9b1-806fd39c6004")
-		(property "Reference" "R3"
+		(property "Reference" "R7"
 			(at 38.1 54.61 90)
 			(effects
 				(font
@@ -5333,7 +5145,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 38.1 57.15 90)
 			(effects
 				(font
@@ -5377,7 +5189,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "R3")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5385,7 +5197,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 135.89 100.33 0)
+		(at 143.51 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5393,8 +5205,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46b9163f-7ad1-476f-86db-8a1d551c8b06")
-		(property "Reference" "C6"
-			(at 139.7 99.0599 0)
+		(property "Reference" "C5"
+			(at 147.32 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5402,8 +5214,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF (104)"
-			(at 139.7 101.5999 0)
+		(property "Value" "100nF"
+			(at 147.32 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5412,7 +5224,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
-			(at 136.8552 104.14 0)
+			(at 144.4752 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5421,7 +5233,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 100.33 0)
+			(at 143.51 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5430,7 +5242,16 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 135.89 100.33 0)
+			(at 143.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "104▲"
+			(at 143.51 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5447,7 +5268,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "C6")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -5463,7 +5284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47f347e6-da4b-46bd-b89d-506bb32e2f02")
-		(property "Reference" "R5"
+		(property "Reference" "R10"
 			(at 38.1 114.3 90)
 			(effects
 				(font
@@ -5471,7 +5292,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 38.1 116.84 90)
 			(effects
 				(font
@@ -5515,7 +5336,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "R5")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5531,7 +5352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a70b658-5638-4d32-8880-347ff8159289")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR01"
 			(at 120.65 22.86 0)
 			(effects
 				(font
@@ -5581,7 +5402,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "#PWR017")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5597,7 +5418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5117c187-680a-4281-b092-e1d826b02304")
-		(property "Reference" "R6"
+		(property "Reference" "R12"
 			(at 38.1 144.78 90)
 			(effects
 				(font
@@ -5605,7 +5426,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 38.1 147.32 90)
 			(effects
 				(font
@@ -5649,7 +5470,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "R6")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -5665,7 +5486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "580a945b-c5f5-40f9-89b1-92f80caf43ed")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR09"
 			(at 24.13 60.96 0)
 			(effects
 				(font
@@ -5715,7 +5536,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "#PWR03")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5731,7 +5552,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "583f16e9-f2e6-4568-90ed-4de3ab6ad9f9")
-		(property "Reference" "R12"
+		(property "Reference" "R4"
 			(at 173.99 44.45 90)
 			(effects
 				(font
@@ -5739,7 +5560,7 @@
 				)
 			)
 		)
-		(property "Value" "2.7K"
+		(property "Value" "2.7k"
 			(at 173.99 46.99 90)
 			(effects
 				(font
@@ -5783,7 +5604,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "R12")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -5954,7 +5775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f3643d5-fd9f-4b08-9610-047b6474b343")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR02"
 			(at 128.27 22.86 0)
 			(effects
 				(font
@@ -6004,7 +5825,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "#PWR019")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -6020,7 +5841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "600bb6b7-15bb-43cf-9977-d11e6e2945e2")
-		(property "Reference" "R9"
+		(property "Reference" "R13"
 			(at 83.82 153.6699 0)
 			(effects
 				(font
@@ -6029,7 +5850,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100k"
 			(at 83.82 156.2099 0)
 			(effects
 				(font
@@ -6074,7 +5895,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "R9")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -6090,7 +5911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68f956a8-9771-4a1d-960c-b7c2f00d7353")
-		(property "Reference" "D6"
+		(property "Reference" "D7"
 			(at 50.8 153.3524 90)
 			(effects
 				(font
@@ -6108,7 +5929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Library:D_DO-35_SOD27_P7.62mm_Horizontal_Widened_No_K"
 			(at 48.26 154.94 0)
 			(effects
 				(font
@@ -6135,6 +5956,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen Value" "B43"
+			(at 48.26 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "93a85c53-97ab-44db-96b7-01222a788dd2")
 		)
@@ -6144,7 +5974,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "D6")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -6160,7 +5990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ccce342-a77d-415e-aa9a-59bed7c6171c")
-		(property "Reference" "Decay1"
+		(property "Reference" "RV3"
 			(at 21.59 59.6899 0)
 			(effects
 				(font
@@ -6169,7 +5999,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100k"
 			(at 21.59 62.2299 0)
 			(effects
 				(font
@@ -6196,7 +6026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer"
+		(property "Description" "DECAY"
 			(at 24.13 60.96 0)
 			(effects
 				(font
@@ -6217,7 +6047,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "Decay1")
+					(reference "RV3")
 					(unit 1)
 				)
 			)
@@ -6233,7 +6063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e22476f-ba70-42a0-be13-8394158a760e")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR011"
 			(at 165.1 74.93 0)
 			(effects
 				(font
@@ -6283,7 +6113,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "#PWR021")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6299,7 +6129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ef7ca4a-08d8-4ca8-ae0b-6ac7ea37ef24")
-		(property "Reference" "D7"
+		(property "Reference" "D1"
 			(at 168.91 62.5474 90)
 			(effects
 				(font
@@ -6308,7 +6138,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED_Filled"
+		(property "Value" "LED"
 			(at 168.91 65.0874 90)
 			(effects
 				(font
@@ -6353,7 +6183,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "D7")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -6361,7 +6191,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 209.55 25.4 90)
+		(at 212.09 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6369,16 +6199,16 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70170830-e9bc-4100-b1cd-e4a9805ce573")
-		(property "Reference" "C5"
-			(at 209.55 17.78 90)
+		(property "Reference" "C1"
+			(at 212.09 17.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "2.2uF (225)"
-			(at 209.55 20.32 90)
+		(property "Value" "2.2uF"
+			(at 212.09 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6386,7 +6216,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
-			(at 213.36 24.4348 0)
+			(at 215.9 24.4348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6395,7 +6225,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 25.4 0)
+			(at 212.09 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6404,7 +6234,16 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 209.55 25.4 0)
+			(at 212.09 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "225▼"
+			(at 212.09 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6421,7 +6260,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "C5")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -6437,7 +6276,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "711017a3-8226-4a48-ba59-0160557c5147")
-		(property "Reference" "C2"
+		(property "Reference" "C7"
 			(at 67.31 123.1899 0)
 			(effects
 				(font
@@ -6446,7 +6285,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100pF (101)"
+		(property "Value" "100pF"
 			(at 67.31 125.7299 0)
 			(effects
 				(font
@@ -6482,6 +6321,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen Value" "101▲"
+			(at 63.5 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "54dafda1-3ecb-498e-9e97-3b70fa5371ab")
 		)
@@ -6491,7 +6339,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "C2")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6499,7 +6347,7 @@
 	)
 	(symbol
 		(lib_id "PCM_4ms_Power-symbol:PWR_FLAG")
-		(at 113.03 96.52 0)
+		(at 111.76 96.52 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6508,7 +6356,7 @@
 		(fields_autoplaced yes)
 		(uuid "7372c006-5f6c-4963-bb0e-ac79aa16c8f4")
 		(property "Reference" "#FLG01"
-			(at 113.03 94.615 0)
+			(at 111.76 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6517,7 +6365,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 113.03 91.44 0)
+			(at 111.76 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6525,7 +6373,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 96.52 0)
+			(at 111.76 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6534,7 +6382,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 96.52 0)
+			(at 111.76 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6543,7 +6391,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.03 96.52 0)
+			(at 111.76 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6564,72 +6412,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 113.03 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "76c67f55-5184-443e-bb06-472412009660")
-		(property "Reference" "#PWR016"
-			(at 113.03 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 113.03 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2809aea4-c301-4f91-be70-a9cd9c1b95c6")
-		)
-		(instances
-			(project "HagiwoHatNoise"
-				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 181.61 29.21 0)
 		(unit 1)
@@ -6639,7 +6421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7765d37f-88c5-4f03-9988-3939de3873e1")
-		(property "Reference" "C3"
+		(property "Reference" "C2"
 			(at 185.42 27.9399 0)
 			(effects
 				(font
@@ -6648,7 +6430,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22nF (223)"
+		(property "Value" "22nF"
 			(at 185.42 30.4799 0)
 			(effects
 				(font
@@ -6684,6 +6466,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen Value" "223▼"
+			(at 181.61 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5c78e5c5-15d0-4e67-9600-87506b38abf3")
 		)
@@ -6693,7 +6484,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "C3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -6701,7 +6492,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 153.67 0)
+		(at 31.75 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6709,8 +6500,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c26b55b-c39d-4dc6-a900-495a39d74938")
-		(property "Reference" "#PWR09"
-			(at 35.56 160.02 0)
+		(property "Reference" "#PWR023"
+			(at 31.75 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6719,7 +6510,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 158.75 0)
+			(at 31.75 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6727,7 +6518,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 153.67 0)
+			(at 31.75 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6736,7 +6527,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 153.67 0)
+			(at 31.75 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6745,7 +6536,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 153.67 0)
+			(at 31.75 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6759,7 +6550,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "#PWR09")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6775,7 +6566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fff57bb-3d4a-4418-aefd-f8980338bd78")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR012"
 			(at 123.19 76.2 0)
 			(effects
 				(font
@@ -6825,7 +6616,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "#PWR018")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6833,7 +6624,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 92.71 0)
+		(at 31.75 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6841,8 +6632,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "801ff5e1-9994-4724-b7f6-febcb76faa5f")
-		(property "Reference" "#PWR07"
-			(at 35.56 99.06 0)
+		(property "Reference" "#PWR014"
+			(at 31.75 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6851,7 +6642,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 97.79 0)
+			(at 31.75 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6859,7 +6650,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 92.71 0)
+			(at 31.75 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6868,7 +6659,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 92.71 0)
+			(at 31.75 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6877,7 +6668,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 92.71 0)
+			(at 31.75 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6891,78 +6682,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:AudioJack2_SwitchT")
-		(at 22.86 120.65 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "808d6d59-fe16-4a8b-bdea-15e0609d5d7f")
-		(property "Reference" "J2"
-			(at 22.225 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Decay CV"
-			(at 22.225 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library:EighthInch_PJ398SM_T_TN_S"
-			(at 22.86 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 22.86 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
-			(at 22.86 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "TN"
-			(uuid "1bdc6d70-605c-4b36-ac6a-d14eb3628a74")
-		)
-		(pin "S"
-			(uuid "045a7b1e-3158-4d81-92db-023630c16320")
-		)
-		(pin "T"
-			(uuid "63bfca3f-11c2-46ca-b693-d2ac3600986e")
-		)
-		(instances
-			(project "HagiwoHatNoise"
-				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "J2")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6978,7 +6698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "814ee4dc-dcd2-476d-ad1c-175ee3e9b47b")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 50.8 92.3924 90)
 			(effects
 				(font
@@ -6996,7 +6716,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Library:D_DO-35_SOD27_P7.62mm_Horizontal_Widened_No_K"
 			(at 48.26 93.98 0)
 			(effects
 				(font
@@ -7023,6 +6743,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen Value" "B43"
+			(at 48.26 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d86a33cb-7a86-4219-b4ad-6055f77b6d7d")
 		)
@@ -7032,7 +6761,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -7048,7 +6777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "883ac0bb-ae44-418e-8c6d-79e69812814e")
-		(property "Reference" "R11"
+		(property "Reference" "R2"
 			(at 173.99 19.05 90)
 			(effects
 				(font
@@ -7100,7 +6829,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "R11")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -7116,7 +6845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a93093d-1eeb-429e-ad80-60d66034c0a8")
-		(property "Reference" "Tune1"
+		(property "Reference" "RV1"
 			(at 21.59 24.1299 0)
 			(effects
 				(font
@@ -7125,7 +6854,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100k"
 			(at 21.59 26.6699 0)
 			(effects
 				(font
@@ -7152,7 +6881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer"
+		(property "Description" "TUNE"
 			(at 24.13 25.4 0)
 			(effects
 				(font
@@ -7173,147 +6902,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "Tune1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_4ms_Connector:Eurorack_Power_16pin_Shrouded")
-		(at 124.46 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e4b2e9a-3fa3-41b8-b7e7-0fe00f775582")
-		(property "Reference" "J4"
-			(at 122.3533 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Eurorack_Power_16pin_Shrouded"
-			(at 122.3533 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library:Pins_2x08_2.54mm_TH_EuroPower_Shrouded_Minimal"
-			(at 134.62 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Header, Male Pins, 2*8, spacing 2.54mm, straight pin, shrouded and keyed"
-			(at 124.46 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "Header, Male Pins, 2*8, spacing 2.54mm, straight pin, shrouded and keyed"
-			(at 124.46 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Cixi LanLing"
-			(at 124.46 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "LL1007-1 (2*8 HITEMP)"
-			(at 124.46 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d3d38742-694a-401a-9ccc-66684954733b")
-		)
-		(pin "5"
-			(uuid "f5967b20-09bd-4e0a-9631-8fc5d9028611")
-		)
-		(pin "4"
-			(uuid "b025343c-a12a-4830-86cc-97449c0f69f6")
-		)
-		(pin "6"
-			(uuid "5be2c8ee-8290-4f0d-8dca-3ccbc983e42f")
-		)
-		(pin "9"
-			(uuid "1d3ac79c-39fb-4b80-91ea-7f7cf455b700")
-		)
-		(pin "12"
-			(uuid "28566ff5-26c1-4c20-9ca0-0f3bbbdad11a")
-		)
-		(pin "8"
-			(uuid "2ef6f3b8-fb0f-42a0-89f5-ad5268650f40")
-		)
-		(pin "7"
-			(uuid "fb1e33be-5e5a-4d7c-a369-3819862dd207")
-		)
-		(pin "3"
-			(uuid "0b6dc32c-4018-4a46-9832-37b7a27161f7")
-		)
-		(pin "15"
-			(uuid "dfea50a9-590b-4ca0-a185-c281ae02f070")
-		)
-		(pin "14"
-			(uuid "d197777f-bcea-4e9c-a42d-9315ced0191a")
-		)
-		(pin "13"
-			(uuid "5178344d-3666-4475-9116-c85afff931b0")
-		)
-		(pin "1"
-			(uuid "61581a73-5708-472e-a261-64b0229fe2da")
-		)
-		(pin "11"
-			(uuid "1ddf6639-bd26-400e-95cb-dd875b559f43")
-		)
-		(pin "16"
-			(uuid "9f60f97c-80fb-4fef-8e24-6e831aef1a94")
-		)
-		(pin "10"
-			(uuid "f308bbd2-9a12-4b74-851b-d6d21a3ac143")
-		)
-		(instances
-			(project "HagiwoHatNoise"
-				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "J4")
+					(reference "RV1")
 					(unit 1)
 				)
 			)
@@ -7329,7 +6918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9255fe45-ead5-4946-9965-e36172160d7c")
-		(property "Reference" "R7"
+		(property "Reference" "R9"
 			(at 83.82 92.7099 0)
 			(effects
 				(font
@@ -7338,7 +6927,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100k"
 			(at 83.82 95.2499 0)
 			(effects
 				(font
@@ -7383,7 +6972,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -7399,7 +6988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97b7e321-aa36-4604-b7d5-af90ca7aa02a")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR06"
 			(at 181.61 39.37 0)
 			(effects
 				(font
@@ -7449,7 +7038,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "#PWR022")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -7465,7 +7054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "984e1744-6807-420b-a2c1-49f66dcf14f6")
-		(property "Reference" "Tone1"
+		(property "Reference" "RV2"
 			(at 21.59 41.9099 0)
 			(effects
 				(font
@@ -7474,7 +7063,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100k"
 			(at 21.59 44.4499 0)
 			(effects
 				(font
@@ -7501,7 +7090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer"
+		(property "Description" "TONE"
 			(at 24.13 43.18 0)
 			(effects
 				(font
@@ -7522,7 +7111,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "Tone1")
+					(reference "RV2")
 					(unit 1)
 				)
 			)
@@ -7538,7 +7127,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98f7b3b8-4206-49c4-af78-64dc1b8ce697")
-		(property "Reference" "C4"
+		(property "Reference" "C3"
 			(at 185.42 53.3399 0)
 			(effects
 				(font
@@ -7547,7 +7136,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3nF (332)"
+		(property "Value" "3.3nF"
 			(at 185.42 55.8799 0)
 			(effects
 				(font
@@ -7583,6 +7172,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen Value" "332▼"
+			(at 181.61 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ec82eba0-47bd-4968-8236-265a5e7e04bb")
 		)
@@ -7592,40 +7190,57 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "C4")
+					(reference "C3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2_SwitchT")
-		(at 22.86 151.13 0)
-		(mirror x)
+		(lib_id "PCM_4ms_Jack:3.5mm_Mono_Switched_sm")
+		(at 22.86 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "992d1a1b-68fa-436d-b3b8-36be6c15cd1d")
-		(property "Reference" "J3"
-			(at 22.225 160.02 0)
+		(fields_autoplaced yes)
+		(uuid "9e386059-51e8-43e3-b9e7-23a2d8836c48")
+		(property "Reference" "J6"
+			(at 21.59 85.09 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "Tune CV"
-			(at 22.225 157.48 0)
+		(property "Value" "TRIG"
+			(at 21.59 87.63 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "Library:EighthInch_PJ398SM_T_TN_S"
-			(at 22.86 151.13 0)
+		(property "Footprint" "Library:EighthInch_PJ398SM_3mmNPTH"
+			(at 22.733 109.347 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 22.86 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7633,37 +7248,49 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 22.86 151.13 0)
+		(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 20.32 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
-			(at 22.86 151.13 0)
+		(property "Manufacturer" "Wenzhou QingPu Electronics Co"
+			(at 20.32 104.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(pin "TN"
-			(uuid "d331c927-d589-422e-9772-434edad4cc3e")
+		(property "Part Number" "WQP-WQP518MA"
+			(at 20.32 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
 		)
-		(pin "S"
-			(uuid "3e25e613-9126-4eb8-9d8a-b0a7000ffd6a")
+		(pin "1"
+			(uuid "d4e53468-5d6a-484f-8d71-43b1ab88a7b8")
 		)
-		(pin "T"
-			(uuid "cb0c46f6-74f5-4900-81c4-db999aeabcd5")
+		(pin "2"
+			(uuid "c9a4f5e6-829b-4e46-9ef4-b7cd53cc7948")
+		)
+		(pin "3"
+			(uuid "f8041d12-6817-436f-8289-bb7c3e5f541c")
 		)
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "J3")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -7679,7 +7306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3989c62-10e5-4065-b65c-fbdc58f7938f")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at 50.8 122.8724 90)
 			(effects
 				(font
@@ -7697,7 +7324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Library:D_DO-35_SOD27_P7.62mm_Horizontal_Widened_No_K"
 			(at 48.26 124.46 0)
 			(effects
 				(font
@@ -7724,6 +7351,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen Value" "B43"
+			(at 48.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "926934a6-6a94-45c6-8eb3-0ffda59bc12c")
 		)
@@ -7733,7 +7369,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -7741,7 +7377,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 135.89 104.14 0)
+		(at 143.51 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7749,8 +7385,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a507c003-7c80-4527-ae4e-4590659f5132")
-		(property "Reference" "#PWR024"
-			(at 135.89 110.49 0)
+		(property "Reference" "#PWR018"
+			(at 143.51 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7759,7 +7395,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 109.22 0)
+			(at 143.51 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7767,7 +7403,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 104.14 0)
+			(at 143.51 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7776,7 +7412,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 104.14 0)
+			(at 143.51 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7785,7 +7421,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 104.14 0)
+			(at 143.51 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7799,7 +7435,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "#PWR024")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7815,7 +7451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6e38d74-cbe1-412b-b0a5-389d2af4f7ed")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR022"
 			(at 48.26 147.32 0)
 			(effects
 				(font
@@ -7865,7 +7501,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "#PWR014")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7881,7 +7517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4f337f7-f94f-45c7-bdd4-171e3b42b6c6")
-		(property "Reference" "R10"
+		(property "Reference" "R6"
 			(at 167.64 54.6099 0)
 			(effects
 				(font
@@ -7890,7 +7526,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "33K"
+		(property "Value" "33k"
 			(at 167.64 57.1499 0)
 			(effects
 				(font
@@ -7935,7 +7571,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "R10")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7943,7 +7579,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 123.19 0)
+		(at 31.75 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7951,8 +7587,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c21f5896-3328-4439-8b55-8d7ce0003e47")
-		(property "Reference" "#PWR08"
-			(at 35.56 129.54 0)
+		(property "Reference" "#PWR020"
+			(at 31.75 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7961,7 +7597,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 128.27 0)
+			(at 31.75 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7969,7 +7605,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 123.19 0)
+			(at 31.75 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7978,7 +7614,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 123.19 0)
+			(at 31.75 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7987,7 +7623,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 123.19 0)
+			(at 31.75 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8001,7 +7637,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "#PWR08")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -8017,7 +7653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cac4a080-a522-4803-9653-660d774e6c1d")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR016"
 			(at 48.26 104.14 0)
 			(effects
 				(font
@@ -8067,7 +7703,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "#PWR011")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -8083,7 +7719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb1dc7e6-25ea-4a9f-8fb0-a5288884676c")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR019"
 			(at 48.26 116.84 0)
 			(effects
 				(font
@@ -8133,7 +7769,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "#PWR012")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -8141,16 +7777,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 214.63 27.94 0)
+		(at 130.81 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4129706-8574-41dc-a8a8-3365f4853c0f")
-		(property "Reference" "#PWR023"
-			(at 214.63 34.29 0)
+		(uuid "cb466072-506b-434a-bdc4-694e4040f802")
+		(property "Reference" "#PWR017"
+			(at 137.16 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8159,15 +7794,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 214.63 33.02 0)
+			(at 133.858 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 27.94 0)
+			(at 130.81 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8176,7 +7812,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 27.94 0)
+			(at 130.81 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8185,7 +7821,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 214.63 27.94 0)
+			(at 130.81 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5dda99b9-a69f-42d4-a92f-e807a17d2850")
+		)
+		(instances
+			(project "HagiwoHatNoise"
+				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 220.98 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4129706-8574-41dc-a8a8-3365f4853c0f")
+		(property "Reference" "#PWR04"
+			(at 220.98 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.98 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8199,7 +7901,107 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "#PWR023")
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Jack:3.5mm_Mono_Switched_sm")
+		(at 224.79 30.48 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d53e4cc5-ab55-451b-ad55-aa3034c7d979")
+		(property "Reference" "J9"
+			(at 226.06 20.32 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "OUT"
+			(at 226.06 22.86 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Library:EighthInch_PJ398SM_3mmNPTH"
+			(at 224.917 44.577 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 29.21 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 224.79 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 227.33 38.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wenzhou QingPu Electronics Co"
+			(at 227.33 39.878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "WQP-WQP518MA"
+			(at 227.33 41.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8261c5e3-c0df-4744-80c7-7547577053ab")
+		)
+		(pin "2"
+			(uuid "b4588ca3-aa92-4dd7-87b7-756490eee91d")
+		)
+		(pin "3"
+			(uuid "f01ead4b-2ca4-41d5-82ca-805cd8b85e74")
+		)
+		(instances
+			(project "HagiwoHatNoise"
+				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -8215,7 +8017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5f65991-2243-4433-92f0-b865fb76f31a")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR013"
 			(at 48.26 86.36 0)
 			(effects
 				(font
@@ -8265,7 +8067,107 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "#PWR010")
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Jack:3.5mm_Mono_Switched_sm")
+		(at 22.86 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d75efae4-4e52-4fb6-b402-833d3201bbcd")
+		(property "Reference" "J7"
+			(at 21.59 115.57 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "DECAY CV"
+			(at 21.59 118.11 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Library:EighthInch_PJ398SM_3mmNPTH"
+			(at 22.733 139.827 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 124.46 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 22.86 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 20.32 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wenzhou QingPu Electronics Co"
+			(at 20.32 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "WQP-WQP518MA"
+			(at 20.32 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1460acb-367e-45b2-93e2-8f48c2952540")
+		)
+		(pin "2"
+			(uuid "c1751638-82ab-4b86-92c5-b3056f16812b")
+		)
+		(pin "3"
+			(uuid "e3a1000e-0e90-4e2b-b473-6259797fbb57")
+		)
+		(instances
+			(project "HagiwoHatNoise"
+				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -8327,6 +8229,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen Value" "2SC1815▲"
+			(at 200.66 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0fbf5b2c-a85e-41c1-a867-0632c510a591")
 		)
@@ -8355,7 +8266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de23270a-1dba-4582-bd7a-9adf4d520b4f")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR07"
 			(at 24.13 43.18 0)
 			(effects
 				(font
@@ -8405,78 +8316,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:AudioJack2_SwitchT")
-		(at 22.86 90.17 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e005c528-3994-436d-98a3-644cf9f81d15")
-		(property "Reference" "J1"
-			(at 22.225 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Trig"
-			(at 22.225 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library:EighthInch_PJ398SM_T_TN_S"
-			(at 22.86 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 22.86 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
-			(at 22.86 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "TN"
-			(uuid "68330d76-7fce-4447-8fd7-485c2ef12f38")
-		)
-		(pin "S"
-			(uuid "fa657bfa-4cf5-4b9b-8ca5-d2277e894bbc")
-		)
-		(pin "T"
-			(uuid "720df2ab-ed5b-4799-8c77-9906975c082f")
-		)
-		(instances
-			(project "HagiwoHatNoise"
-				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "J1")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -8484,7 +8324,7 @@
 	)
 	(symbol
 		(lib_id "PCM_4ms_Power-symbol:PWR_FLAG")
-		(at 140.97 105.41 180)
+		(at 151.13 105.41 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8493,7 +8333,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3644ae2-6d48-4c38-b6a6-18cc5c58ddc9")
 		(property "Reference" "#FLG02"
-			(at 140.97 107.315 0)
+			(at 151.13 107.315 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8502,7 +8342,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 140.97 110.49 0)
+			(at 151.13 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8510,7 +8350,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 105.41 0)
+			(at 151.13 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8519,7 +8359,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 105.41 0)
+			(at 151.13 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8528,7 +8368,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 105.41 0)
+			(at 151.13 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8558,7 +8398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e36bd322-c336-4754-81c5-3b33f26f7678")
-		(property "Reference" "R8"
+		(property "Reference" "R11"
 			(at 83.82 123.1899 0)
 			(effects
 				(font
@@ -8567,7 +8407,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100k"
 			(at 83.82 125.7299 0)
 			(effects
 				(font
@@ -8612,7 +8452,229 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "R8")
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Connector:Eurorack_Power_10pin_Unshrouded")
+		(at 124.46 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed1e9857-8c91-456f-ac95-ad3159d12d85")
+		(property "Reference" "J3"
+			(at 122.3533 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Eurorack_Power_10pin_Unshrouded"
+			(at 122.3533 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:IDC-Header_2x05_P2.54mm_Vertical_Euro_Power_Striped_ThickerText"
+			(at 127 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "HEADER 2x5 MALE PINS 0.100” 180deg"
+			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "HEADER 2x5 MALE PINS 0.100” 180deg"
+			(at 124.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TAD"
+			(at 124.46 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "1-1002FBV0T"
+			(at 124.46 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "70b5f0bc-9700-43b4-81c0-57f0b301bafb")
+		)
+		(pin "2"
+			(uuid "f401ed92-4d72-4484-8024-eb9957a4343b")
+		)
+		(pin "9"
+			(uuid "c52e5a75-a9d9-4f7f-aba6-c06dd77cce6d")
+		)
+		(pin "7"
+			(uuid "60f0c143-6942-4f87-a185-fc5a52e31cc1")
+		)
+		(pin "6"
+			(uuid "ee2cb503-94dd-46ae-981f-15879b34bbb4")
+		)
+		(pin "5"
+			(uuid "e434bb87-355b-4b67-812c-034a199a6ca7")
+		)
+		(pin "8"
+			(uuid "23bff2f4-45d7-48be-87df-3f2dfbd3f3a1")
+		)
+		(pin "1"
+			(uuid "7042feef-d40e-493a-afc9-f94c97cb0fa9")
+		)
+		(pin "10"
+			(uuid "327e3845-5c06-426f-89f2-3a56f415fcc7")
+		)
+		(pin "4"
+			(uuid "9b9dc8b2-0301-4e67-92ef-a45aa86605f8")
+		)
+		(instances
+			(project "HagiwoHatNoise"
+				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Jack:3.5mm_Mono_Switched_sm")
+		(at 22.86 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ede10de5-0ba4-4348-a5bb-2bb036527beb")
+		(property "Reference" "J8"
+			(at 21.59 146.05 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TUNE CV"
+			(at 21.59 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Library:EighthInch_PJ398SM_3mmNPTH"
+			(at 22.733 170.307 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 154.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 22.86 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 20.32 164.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wenzhou QingPu Electronics Co"
+			(at 20.32 165.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "WQP-WQP518MA"
+			(at 20.32 167.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cbbc5d5-e67a-4fe4-b6ac-d81c510fddb3")
+		)
+		(pin "2"
+			(uuid "d75bc0b5-96a8-4eba-a08f-7dca7d30732e")
+		)
+		(pin "3"
+			(uuid "730b2eb2-3e31-4c21-af57-98e0345fd433")
+		)
+		(instances
+			(project "HagiwoHatNoise"
+				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -8628,7 +8690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f62101c5-e82c-45d4-8ce5-af495c20d8dc")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR03"
 			(at 24.13 25.4 0)
 			(effects
 				(font
@@ -8678,7 +8740,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "#PWR01")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -8702,7 +8764,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 38.1 21.59 90)
 			(effects
 				(font
@@ -8762,7 +8824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fef6c0f9-ff01-4df9-af39-534579587b3d")
-		(property "Reference" "R4"
+		(property "Reference" "R8"
 			(at 38.1 83.82 90)
 			(effects
 				(font
@@ -8770,7 +8832,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 38.1 86.36 90)
 			(effects
 				(font
@@ -8814,7 +8876,7 @@
 		(instances
 			(project "HagiwoHatNoise"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "R4")
+					(reference "R8")
 					(unit 1)
 				)
 			)

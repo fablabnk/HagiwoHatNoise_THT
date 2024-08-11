@@ -1,4 +1,4 @@
-23663764422452697
+23651793301904986
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63483,40 +63483,40 @@ Yellow 5381 Series LED
 2
 2
 Library
-AudioMountPoint
-6.35mm (1/4 in) Vertical Jack, Non-switching stereo jack (T/R/S), https://www.neutrik.com/en/product/nj3fd-v
-neutrik jack vertical
+D_DO-35_SOD27_P7.62mm_Horizontal_Widened
+Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf
+Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm
 0
-3
-3
+2
+2
 Library
-AudioMountPoint2
-6.35mm (1/4 in) Vertical Jack, Non-switching stereo jack (T/R/S), https://www.neutrik.com/en/product/nj3fd-v
-neutrik jack vertical
+D_DO-35_SOD27_P7.62mm_Horizontal_Widened_No_K
+Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf
+Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm
 0
-3
-3
+2
+2
 Library
-EURO_PWR_2x8
-Through hole IDC box header, 2x05, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
-Through hole vertical IDC box header THT 2x05 2.54mm double row
-0
-16
-16
-Library
-EighthInch_PJ398SM_T_TN_S
+EighthInch_PJ398SM_3mmNPTH
 
 
 0
 3
 3
 Library
-IDC-Header_2x05_P2.54mm_Vertical
-Through hole IDC box header, 2x05, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
-Through hole vertical IDC box header THT 2x05 2.54mm double row
+Faceplate_Hole_Jack_3.5mm_NPTH
+
+
 0
-16
-16
+0
+0
+Library
+Faceplate_Hole_Pot_9mm_NPTH
+
+
+0
+0
+0
 Library
 IDC-Header_2x05_P2.54mm_Vertical_Euro_Power_Striped
 Through hole IDC box header, 2x05, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
@@ -63525,67 +63525,18 @@ Through hole vertical IDC box header THT 2x05 2.54mm double row
 10
 10
 Library
-PinHeader_1x02_P2.54mm_Vertical_1_3
-Through hole straight pin header, 1x02, 2.54mm pitch, single row
-Through hole pin header THT 1x02 2.54mm single row
+IDC-Header_2x05_P2.54mm_Vertical_Euro_Power_Striped_ThickerText
+Through hole IDC box header, 2x05, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
+Through hole vertical IDC box header THT 2x05 2.54mm double row
 0
-2
-2
-Library
-PinHeader_1x02_P2.54mm_Vertical_2_3
-Through hole straight pin header, 1x02, 2.54mm pitch, single row
-Through hole pin header THT 1x02 2.54mm single row
-0
-2
-2
-Library
-PinHeader_1x02_P2.54mm_Vertical_TR
-Through hole straight pin header, 1x02, 2.54mm pitch, single row
-Through hole pin header THT 1x02 2.54mm single row
-0
-2
-2
-Library
-PinHeader_1x02_P2.54mm_Vertical_TS
-Through hole straight pin header, 1x02, 2.54mm pitch, single row
-Through hole pin header THT 1x02 2.54mm single row
-0
-2
-2
-Library
-PinHeader_1x03_P2.54mm_Vertical_TRS
-Through hole straight pin header, 1x03, 2.54mm pitch, single row
-Through hole pin header THT 1x03 2.54mm single row
-0
-3
-3
-Library
-Pins_2x08_2.54mm_TH_EuroPower_Shrouded_Minimal
-
-
-0
-16
-16
+10
+10
 Library
 Pot_9mm_DShaft_RemovedPins4_5
 
 
 0
 5
-3
-Library
-STOMP-SWITCH-3PDT_DaierTek
-
-
-0
-9
-9
-Library
-SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm-SolderLugs
-Wuerth, WS-SLTV, 450301014042, https://www.we-online.com/components/products/datasheet/450301014042.pdf
-switch single-pole double-throw SPDT würth wurth
-0
-3
 3
 Module
 A20_OLINUXINO_LIME2
