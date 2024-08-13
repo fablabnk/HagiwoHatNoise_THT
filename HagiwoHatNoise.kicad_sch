@@ -2817,6 +2817,12 @@
 		(uuid "255fedae-ac6a-4071-a8ba-9792bf111930")
 	)
 	(junction
+		(at 118.11 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b9cb6f8-8e5d-465c-800b-a249f00ce119")
+	)
+	(junction
 		(at 81.28 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3747,6 +3753,16 @@
 			(type default)
 		)
 		(uuid "f9f00496-d1a9-498f-9b77-a20e123c3a4b")
+	)
+	(wire
+		(pts
+			(xy 111.76 106.68) (xy 118.11 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc0e32be-5c69-46cc-9fc2-33dc76a9852e")
 	)
 	(wire
 		(pts
@@ -5343,6 +5359,72 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_4ms_Power-symbol:PWR_FLAG")
+		(at 111.76 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49d40fbe-01fd-4098-93c1-90d9047702c4")
+		(property "Reference" "#FLG03"
+			(at 111.76 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 111.76 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0a9e26f-8ed9-4e29-a5df-517b4f34ee48")
+		)
+		(instances
+			(project "HagiwoHatNoise"
+				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 120.65 19.05 0)
 		(unit 1)
@@ -6353,7 +6435,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7372c006-5f6c-4963-bb0e-ac79aa16c8f4")
 		(property "Reference" "#FLG01"
 			(at 111.76 98.425 0)
@@ -6365,7 +6446,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 111.76 101.6 0)
+			(at 111.76 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
