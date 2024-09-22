@@ -4881,7 +4881,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
 			(at 164.7952 104.14 0)
 			(effects
 				(font
@@ -5266,7 +5266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Silkscreen Value" "104▲"
+		(property "Silkscreen Value" "◀104"
 			(at 143.51 100.33 0)
 			(effects
 				(font
@@ -6081,7 +6081,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k B"
 			(at 21.59 62.2299 0)
 			(effects
 				(font
@@ -6935,7 +6935,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k B"
 			(at 21.59 26.6699 0)
 			(effects
 				(font
@@ -7144,7 +7144,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k B"
 			(at 21.59 44.4499 0)
 			(effects
 				(font
@@ -7253,7 +7253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Silkscreen Value" "332▼"
+		(property "Silkscreen Value" "332▶"
 			(at 181.61 54.61 0)
 			(effects
 				(font
@@ -8280,7 +8280,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
 			(at 202.565 22.86 0)
 			(effects
 				(font
@@ -8310,7 +8310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Silkscreen Value" "2SC1815▲"
+		(property "Silkscreen Value" "2SC1815▶"
 			(at 200.66 27.94 90)
 			(effects
 				(font
