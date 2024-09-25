@@ -3,9 +3,12 @@
 ## Things to pay attention to whilst building
 
 ## Design issues to fix in V1.1
-- power header silkscreen is on wrong side of board
+
+- DONE: 30 mil for power traces
+- DONE: 20 mil for signal traces
+- FIXED: power header silkscreen is on wrong side of board
+- FIXED: use wider footprint for transistor
+- FIXED: pots should be marked as linear (i.e. add B on silkscreening)
 - panel is missing LED hole
-- use wider footprint for transistor
-- pots should be marked as linear (i.e. add B on silkscreening)
 
 ## Component issues
